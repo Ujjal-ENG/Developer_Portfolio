@@ -146,12 +146,28 @@ main {
 
 /* Design the address part */
 
-address{
+address {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-address div{
+address div {
   text-align: center;
+}
+
+address div p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #757575;
+}
+
+address div h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #474747;
 }
