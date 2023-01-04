@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
+  text-decoration: none;
 }
 .header {
   background-color: #fff8f3;
@@ -281,6 +282,7 @@ hr {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+  margin-bottom: 130px;
 }
 
 .btn4 {
@@ -295,4 +297,53 @@ hr {
   padding: 18px 35px 19px 36px;
   margin-right: 30px;
   text-align: center;
+}
+
+/* Design the footer section */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff8f3;
+  padding: 130px 226px;
+  gap: 100px;
+}
+.contact h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  color: #474747;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.contact p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.btn5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 10px;
+  color: white;
+  background: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+  padding: 18px 35px 19px 36px;
+  margin-right: 30px;
+  text-align: center;
+}
+.contact input,
+textarea {
+  margin-bottom: 24px;
+  border: none;
+  width: 100%;
+  padding: 18px 30px;
+  resize: none;
 }
