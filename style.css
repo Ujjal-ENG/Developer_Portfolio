@@ -227,3 +227,72 @@ address div h3 {
   line-height: 28px;
   color: #757575;
 }
+
+/* Style the Resume section */
+
+.skills-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.education {
+  width: 511px;
+  height: 175px;
+}
+
+.education h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.education h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.education p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+hr {
+  margin: 30px 0;
+}
+
+.resume-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 10px;
+  color: white;
+  background: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+  padding: 18px 35px 19px 36px;
+  margin-right: 30px;
+  text-align: center;
+}
