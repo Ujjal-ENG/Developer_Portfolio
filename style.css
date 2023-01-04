@@ -4,25 +4,27 @@
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
 }
-
 .header {
   background-color: #fff8f3;
+  background-image: url("./images/header_bg.png"), url("./images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
 }
 /* Header navigation and nav style */
 .nav-title {
   font-weight: 800;
   font-size: 45px;
 }
-.nav-title > span {
+.nav-title span {
   color: #fd6e0a;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 51px;
   margin-left: 226px;
   margin-right: 230px;
+  padding-top: 51px;
 }
 
 nav ul {
@@ -51,7 +53,15 @@ nav li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 226px;
+  margin: 0 20px 0px 226px;
+}
+.aside {
+  width: 585px;
+  height: 356px;
+}
+.imgHeader {
+  margin-top: 48px;
+  margin-right: 38px;
 }
 .container .banner-title {
   font-weight: 600;
