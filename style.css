@@ -45,3 +45,9 @@ nav li {
   border: none;
   padding: 18px 35px 19px 36px;
 }
+
+.container div {
+  width: 585px;
+  height: 262px;
+
+}
