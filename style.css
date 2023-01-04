@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #fff8f3;
 }
 /* Header navigation and nav style */
 .nav-title {
-  font-style: normal;
   font-weight: 800;
   font-size: 45px;
-  line-height: 61px;
 }
 .nav-title > span {
   color: #fd6e0a;
@@ -22,7 +25,7 @@ nav {
   margin-right: 230px;
 }
 
-nav > ul {
+nav ul {
   display: flex;
   align-items: center;
 }
@@ -33,21 +36,72 @@ nav li {
 }
 
 .btn1 {
-  font-family: "Open Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 27px;
   color: white;
-
   background: #fd6e0a;
   border-radius: 5px;
   border: none;
   padding: 18px 35px 19px 36px;
 }
 
-.container div {
-  width: 585px;
-  height: 262px;
+/* Container Style */
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 226px;
+}
+.container .banner-title {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+.container .banner-name {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+  margin-bottom: 20px;
+  color: #181818;
+}
+
+.container .banner-desc {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.btn2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 10px;
+  color: white;
+  background: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+  padding: 18px 35px 19px 36px;
+  margin-right: 30px;
+}
+
+.btn3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fd6e0a;
+  background-color: white;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  padding: 18px 35px 19px 36px;
 }
