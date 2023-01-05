@@ -303,7 +303,6 @@ hr {
 .contact {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   background: #fff8f3;
   padding: 130px 226px;
   gap: 100px;
