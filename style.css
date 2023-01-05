@@ -302,7 +302,7 @@ hr {
 /* Design the footer section */
 .contact {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background: #fff8f3;
   padding: 130px 226px;
   gap: 100px;
@@ -342,7 +342,7 @@ hr {
 textarea {
   margin-bottom: 24px;
   border: none;
+  width: 100%;
   padding: 18px 30px;
   resize: none;
-  width: 100%;
 }
