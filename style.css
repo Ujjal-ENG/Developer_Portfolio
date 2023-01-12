@@ -346,3 +346,34 @@ textarea {
   padding: 18px 30px;
   resize: none;
 }
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  main {
+    width: 576px;
+    height: 550px;
+    background: #fff8f3;
+    margin: 0 auto;
+  }
+  .skils-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .skills-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .skills-data .my-experience {
+    border-top: 1px solid #000;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 922px) {
+}
